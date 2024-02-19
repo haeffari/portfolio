@@ -1,0 +1,9 @@
+<svg id="icon_scroll" xmlns="http://www.w3.org/2000/svg" width="22" height="46.657" viewBox="0 0 22 46.657">
+  <g id="Rectangle_144" data-name="Rectangle 144" fill="none" stroke="#fff" stroke-width="1">
+    <rect width="22" height="30" rx="11" stroke="none"/>
+    <rect x="0.5" y="0.5" width="21" height="29" rx="10.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_145" data-name="Rectangle 145" width="4" height="4" rx="2" transform="translate(9 7)" fill="#fff"/>
+  <rect id="Rectangle_146" data-name="Rectangle 146" width="2" height="8" rx="1" transform="translate(5.343 41) rotate(-45)" fill="#fff"/>
+  <rect id="Rectangle_147" data-name="Rectangle 147" width="2" height="8" rx="1" transform="translate(15.243 39.586) rotate(45)" fill="#fff"/>
+</svg>

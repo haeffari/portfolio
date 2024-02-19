@@ -1,0 +1,443 @@
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Desktop : 1650px ~ 1301px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1650px) {
+  /* ################################ visual ################################ */
+  .visual .svg_ani {
+    top: 35%;
+    width: 1135px;
+    height: 590px;
+  }
+  .visual .main_text {
+    font-size: 110px;
+  }
+
+  /* ################################ con02 ################################ */
+  .con02 .title {
+    font-size: 120px;
+  }
+  .con02 .work_list {
+    width: 90%;
+  }
+  .con02 .title .en2 {
+    font-size: 150px;
+  }
+
+  /* ################################ con03 ################################ */
+  .con03 .text_wrap .skill_list {
+    font-size: 80px;
+  }
+  .con03 .simply-scroll .simply-scroll-clip .simply-scroll-list li {
+    width: 200px;
+  }
+
+  /* ################################ con04 ################################ */
+  .con04 .text_box .title {
+    font-size: 90px;
+  }
+  .con04 .text_box .title .en2 {
+    font-size: 110px;
+  }
+  .con04 .text_box .sub_title {
+    font-size: 20px;
+  }
+  .con04 .ani_box {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 30vh;
+  }
+
+  /* ################################ footer ################################ */
+  footer {
+    height: 70vh;
+  }
+  footer h2 {
+    font-size: 13vw;
+  }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Laptop : 1300px ~ 1025px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1300px) {
+  /* ################################ visual ################################ */
+  .visual .main_text {
+    margin: 0 0 80px 60px;
+  }
+  .visual .sub_text {
+    margin-left: 7%;
+  }
+  .visual .svg_ani {
+    top: 50%;
+    width: 1031px;
+    height: 515px;
+  }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Tablet : 1024px ~ 800px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1024px) {
+  header {
+    padding: 5% 5%;
+  }
+  /* ################################ visual ################################ */
+  .visual .main_text { 
+    font-size: 100px;
+  }
+  .visual .svg_ani {
+    top: 50%;
+    width: 839px;
+    height: 445px;
+  }
+
+  /* ################################ con02 ################################ */
+  .con02 .title {
+    font-size: 17vw;
+  }
+  .con02 .title .en2 {
+    font-size: 20vw;
+  }
+  .con02 .work_list {
+    width: 90%;
+  }
+  .con02 .work_list li a .work_title h3 {
+    font-size: 25px;
+  }
+
+  /* ################################ con03 ################################ */
+  .con03 .text_wrap .skill_list {
+    font-size: 70px;
+  }
+
+  /* ################################ con04 ################################ */
+  .con04 {
+    height: auto;
+    padding-bottom: 34vh;
+  }
+  .con04 .text_box .title {
+    font-size: 11vw;
+  }
+  .con04 .text_box .title .en2 {
+    font-size: 14vw;
+  }
+  .con04 .text_box .sub_title {
+    margin: 24px 10px;
+  }
+  .con04 .text_box .sm_title {
+    margin: 0 10px;
+  }
+  .con04 .ani_box {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 30vh;
+  }
+
+  /* ################################ gallery ################################ */
+  .gallery {
+    height: fit-content;
+  }
+  .gallery .counter {
+    display: none;
+  }
+  .gallery ul {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+  .gallery ul li {
+    width: 45%;
+    padding: 0;
+    flex-shrink: 1;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gallery ul li:nth-child(2n) {
+    margin-top: 0;
+  }
+  .gallery ul li .img_box {
+    clip-path: none;
+  }
+  .gallery ul li .text_box {
+    position: static;
+    opacity: 1;
+    padding-left: 10%;
+  }
+  .gallery ul li .text_box .title {
+    font-size: 27px;
+    margin-top: 10px;
+  }
+
+  /* ################################ footer ################################ */
+  footer {
+    height: 70vh;
+  }
+  footer h2 {
+    font-size: 13vw;
+  }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile : 800px ~ 501px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:800px) {
+  body.on {
+    overflow: hidden;
+  }
+
+  /* ################################ header ################################ */
+  header .menu_open {
+    display: flex;
+    width: 3rem;
+    height: 2.4rem;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  header .menu_open span {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: white;
+    transition: .3s;
+  }
+  header .menu_open.on {
+    position: absolute;
+    right: 5%;
+  }
+  header .menu_open.on span {
+    background: white;
+  }
+  header .menu_open.on span:first-child {
+    transform: rotate(45deg) translate(2px, 10px);
+  }
+  header .menu_open.on span:last-child {
+    transform: rotate(-45deg) translate(-2px, -5px);
+  }
+  header .gnb {
+    top: -100vh;
+    transition: .3s;
+  }
+  header .gnb.on {
+    width: 100%;
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .gnb ul {
+    gap: 13px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 8rem;
+    display: none;
+  }
+  .gnb.on ul {
+    display: flex;
+  }
+  .gnb ul li:nth-child(2n) {
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+  }
+  .gnb ul li a .char {
+    color: #f0f0f0;
+    font-size: 11vw;
+    font-weight: 500;
+  }
+  .gnb ul li:nth-child(2n) a .char {
+    font-size: 13vw;
+  }
+  .gnb ul li a .char::before, .gnb ul li a .char::after {
+    display: none;
+  }
+
+  /* ################################ visual ################################ */
+  .visual .main_text {
+    font-size: 80px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+  .visual .sub_text {
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: 16px;
+  }
+  .visual .svg_ani {
+    top: 65%;
+    width: 594px;
+    height: 296px;
+  }
+  .visual .scroll {
+    display: none;
+  }
+
+  /* ################################ con01 ################################ */
+  .con01 .title h2 {
+    font-size: 9vw;
+  }
+
+  /* ################################ con02 ################################ */
+  .con02 .title {
+    font-size: 11vw;
+  }
+  .con02 .title .en2 {
+      font-size: 15vw;
+  }
+  .con02 .work_list li {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10rem;
+  }
+  .con02 .work_list li a .work_img img:hover {
+    filter: inherit;
+  }
+  .con02 .work_list li a .work_img::before,
+  .con02 .work_list li a .work_img::after {
+    display: none;
+  }
+
+  /* ################################ con03 ################################ */
+  .con03 .text_wrap .skill_list {
+    font-size: 9vw;
+  }
+  .con03.motion .simply-scroll .simply-scroll-clip {
+    transform: rotate(5deg) translate(0%, 250%) scale(1.1);
+  }
+  .con03 .simply-scroll .simply-scroll-clip .simply-scroll-list li {
+    width: 210px;
+  }
+
+  /* ################################ con04 ################################ */
+  .con04 {
+    padding-bottom: 15vh;
+  }
+  .con04 .inner {
+    flex-direction: column;
+  }
+  .con04 .text_box {
+    width: 100%;
+  }
+  .con04 .ani_box {
+    margin: 5vh auto;
+  }
+
+  /* ################################ gallery ################################ */
+  .gallery ul li {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10rem;
+  }
+  .gallery ul li .img_box {
+    text-align: center;
+  }
+  .gallery ul li .img_box img {
+    width: 80%;
+  }
+  .gallery ul li .img_box:hover img {
+    filter: inherit;
+  }
+  .gallery ul li .img_box::before, 
+  .gallery ul li .img_box::after {
+    display: none;
+  }
+
+  /* ################################ footer ################################ */
+  footer {
+    height: 50vh;
+  }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile2 : 500px ~ 377px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:500px) {
+  /* ################################ header ################################ */
+  header {
+    padding: 5% 5%;
+  }
+  header .menu_open {
+    width: 2.4rem;
+    height: 2rem;
+  }
+
+  /* ################################ visual ################################ */
+  .visual .main_text {
+    font-size: 50px;
+  }
+  .visual .sub_text {
+    margin-left: 6%;
+    font-size: 13px;
+  }
+  .visual .svg_ani {
+    width: 479px;
+    height: 228px;
+  }
+  .visual .scroll {
+    display: none;
+  }
+
+  /* ################################ con01 ################################ */
+  .con01 .title h2 {
+    font-size: 11vw;
+  }
+  
+  /* ################################ con02 ################################ */
+  .con02 .title {
+    font-size: 15vw;
+  }
+  .con02 .title.on {
+    display: none;
+  }
+  .con02 .title .en2 {
+    font-size: 18vw;
+  }
+  .con02 .work_list li a .work_title h3 {
+    font-size: 20px;
+  }
+  .con02 .work_list li a .work_title .work_info {
+    font-size: 13px;
+  }
+  
+  /* ################################ con03 ################################ */
+  .con03 {
+    margin-top: 0;
+  }
+  .con03 .text_wrap .title {
+    font-size: 15px;
+  }
+  .con03 .text_wrap .skill_list {
+    font-size: 12vw;
+  }
+  .con03 .simply-scroll .simply-scroll-clip .simply-scroll-list li {
+    width: 128px;
+  }
+
+  /* ################################ con04 ################################ */
+  .con04 .text_box .title {
+    font-size: 11vw;
+  }
+  .con04 .text_box .title .en2 {
+    font-size: 13vw;
+  }
+  .con04 .text_box .sub_title {
+    font-size: 16px;
+  }
+  .con04 .text_box .sm_title {
+    font-size: 12px;
+  }
+  .con04 .ani_box {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  /* ################################ gallery ################################ */
+  .gallery ul li .text_box .title {
+    font-size: 20px;
+  }
+
+  /* ################################ footer ################################ */
+  footer h2:nth-child(1) {
+    -webkit-text-stroke: 1px white;
+  }
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Mobile2 : 375px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:375px) {
+  .visual .svg_ani {
+    top: 75%;
+  }
+}

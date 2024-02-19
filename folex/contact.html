@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - folex</title>
+  <!-- fontawesome cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- modernizr cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" referrerpolicy="no-referrer"></script>
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- style css & js -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <!-- modal -->
+  <div class="modal">
+    <div class="modal_text">
+      <button class="modal_close" type="button"><i class="fa-solid fa-xmark"></i></button>
+      <div class="icon_pc"></div>
+      <div class="text">*해당 작업은 <span class="red">desktop only</span> 입니다!</div>
+    </div>
+  </div>
+  <!-- // modal -->
+  <!-- header -->
+  <header class="header">
+    <nav class="">
+      <h1 class="logo">
+        <a href="index.html"></a>
+      </h1>
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="port.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <!-- // header -->
+  <!-- toggle menu -->
+  <div class="toggle_menu">
+  <ul>
+    <li><a href="">world</a></li>
+    <li><a href="">port</a></li>
+    <li><a href="">lifestyle</a></li>
+    <li><a href="">food</a></li>
+    <li><a href="">science</a></li>
+    <li><a href="">travel</a></li>
+  </ul>
+  <div class="close"><i class="fa-solid fa-xmark"></i></div>
+  </div>
+  <!-- // toggle menu -->
+  <!-- subpage banner -->
+  <div class="subpage-banner" style="background-image:url(img/slide3.jpg);">
+    <div class="contents">
+      <h2 class="title_bar center">Contact</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+  </div>
+  <!-- // subpage banner -->
+  <!-- main contents -->
+  <div class="main-contents">
+    <div class="contact-contents">
+      <div class="form">
+        <form action="">
+          <h2 class="title_bar left">Get in touch</h2>
+          <p class="field">
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Your Name">
+          </p>
+          <p class="field">
+            <label for="userEmail">Email</label>
+            <input type="email" id="userEmail" placeholder="Your Email">
+          </p>
+          <p class="field">
+            <label for="userMessage">Message</label>
+            <textarea name="userMessage" id="userMessage" cols="30" rows="10" placeholder="Your Message"></textarea>
+          </p>
+          <p class="submit">
+            <input type="submit" value="submit" class="big btn orange"/>
+          </p>
+        </form>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d791.4952221443313!2d126.78335261971039!3d37.48477736244063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z67aA7LKc7Jet!5e0!3m2!1sko!2skr!4v1704725001659!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- // main contents -->
+  <!-- footer -->
+  <div class="section fp-auto-height footer">
+    <ul class="footer_menu">
+      <li><a href="">world</a></li>
+      <li><a href="">sport</a></li>
+      <li><a href="">lifestyle</a></li>
+      <li><a href="">food</a></li>
+      <li><a href="">science</a></li>
+      <li><a href="">travel</a></li>
+    </ul>
+    <ul class="social_menu">
+      <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href=""></a><i class="fa-brands fa-twitter"></i></li>
+      <li><a href=""></a><i class="fa-brands fa-behance"></i></li>
+    </ul>
+    <p class="copyright">&copy;2024 floex. All Right Reversed</p>
+  </div>
+  <!-- // footer -->
+  <!-- btn back_to_top -->
+  <a href="#" class="back_to_top">
+    <i class="fa-solid fa-arrow-up-long"></i>
+  </a>
+  <!-- // btn back_to_top -->
+</body>
+</html>
